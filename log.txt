@@ -1,0 +1,23 @@
+append None settings
+append {'lujiDD': {'children': []}, 'luji5': {'children': []}, 'luji2': {'children': []}, 'level': 2, 'max': 3, 'levelCount': 1} volume
+append {'lujiDD': {'children': ['asp']}, 'luji5': {'children': []}, 'luji2': {'children': []}, 'level': 2, 'max': 3, 'levelCount': 1} lujiDD
+| append luji5 | this belong to volume temp {'children': [], 'root': 'lujiDD', 'level': 3, '_first_there': True} {'root': 'lujiDD', 'level': 3, 'children': [{'children': [], 'root': 'asp', 'level': 4, '_first_there': True}], 'tail': {'root': 'volume', 'level': 2, 'children': [{'children': [], 'root': 'lujiDD', 'level': 3, '_first_there': True}], 'tail': {'root': 'settings', 'level': 1, 'children': [{'children': [], 'root': 'volume', 'level': 2, '_first_there': True}], 'tail': None}}}
+append {'lujiDD': {'children': ['asp']}, 'luji5': {'children': ['2JUJI']}, 'luji2': {'children': []}, 'level': 2, 'max': 3, 'levelCount': 2} luji5
+| append wUJI1 | this belong to
+luji5 temp
+{'children': [], 'root': '2JUJI', 'level': 4, '_first_there': True}
+{'root': 'wUJI1', 'level': 4, 'children': ['critical switch'], 'tail': {'root': 'luji5', 'level': 3,
+    'children': [{'children': [], 'root': '2JUJI', 'level': 4,
+    '_first_there': True}], 'tail': {'root': 'lujiDD', 'level': 3,
+    'children': [{'children': [], 'root': 'asp', 'level': 4, '_first_there': True}],
+    'tail': {'root': 'volume', 'level': 2, 'children': [
+    {'children': [], 'root': 'lujiDD', 'level': 3, '_first_there': True}
+    ],
+    'tail': {'root': 'settings', 'level': 1, 'children': [{'children': [], 'root': 'volume', 'level': 2, '_first_there': True}], 'tail': None}}}}}
+
+| append luji2 | this belong to volume temp {'children': [], 'root': 'lujiDD', 'level': 3, '_first_there': True} {'root': 'wUJI1', 'level': 4, 'children': ['critical switch'], 'tail': {'root': 'luji5', 'level': 3, 'children': [{'children': [], 'root': '2JUJI', 'level': 4, '_first_there': True}], 'tail': {'root': 'lujiDD', 'level': 3, 'children': [{'children': [], 'root': 'asp', 'level': 4, '_first_there': True}], 'tail': {'root': 'volume', 'level': 2, 'children': [{'children': [], 'root': 'lujiDD', 'level': 3, '_first_there': True}], 'tail': {'root': 'settings', 'level': 1, 'children': [{'children': [], 'root': 'volume', 'level': 2, '_first_there': True}], 'tail': None}}}}}
+| append buoaaA | this belong to settings temp {'children': [], 'root': 'volume', 'level': 2, '_first_there': True} {'root': 'wUJI1', 'level': 4, 'children': ['critical switch']}
+append {'s': {'children': []}, 'bina': {'children': []}, 'L': {'children': []}, 'xL': {'children': []}, 'level': 2, 'max': 4, 'levelCount': 1} buoaaA
+| append bina | this belong to buoaaA temp {'children': [], 'root': 's', 'level': 3, '_first_there': True} {'root': 'bina', 'level': 3, 'children': ['critical switch'], 'tail': {'root': 'buoaaA', 'level': 2, 'children': [{'children': [], 'root': 's', 'level': 3, '_first_there': True}], 'tail': {'root': 'wUJI1', 'level': 4, 'children': ['critical switch']}}}
+| append L | this belong to buoaaA temp {'children': [], 'root': 's', 'level': 3, '_first_there': True} {'root': 'bina', 'level': 3, 'children': ['critical switch'], 'tail': {'root': 'buoaaA', 'level': 2, 'children': [{'children': [], 'root': 's', 'level': 3, '_first_there': True}], 'tail': {'root': 'wUJI1', 'level': 4, 'children': ['critical switch']}}}
+| append xL | this belong to buoaaA temp {'children': [], 'root': 's', 'level': 3, '_first_there': True} {'root': 'bina', 'level': 3, 'children': ['critical switch'], 'tail': {'root': 'buoaaA', 'level': 2, 'children': [{'children': [], 'root': 's', 'level': 3, '_first_there': True}], 'tail': {'root': 'wUJI1', 'level': 4, 'children': ['critical switch']}}}

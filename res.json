@@ -1,0 +1,111 @@
+{
+  "setting": {
+    "prun31": {
+      "param": "100",
+      "cmd": "10",
+      "keybind": "10",
+      "props": {
+        "prev": {},
+        "parent_key": "prun31"
+      }
+    },
+    "ee": {
+      "ss": "1",
+      "props": {
+        "prev": {},
+        "parent_key": "ee"
+      }
+    },
+    "prun1": [
+      {
+        "param": "100",
+        "cmd": "10",
+        "keybind": "ass 1"
+      },
+      {
+        "param": "100",
+        "cmd": "10",
+        "keybind": "ass 2"
+      }
+    ],
+    "setting": []
+  },
+  "volume": {
+    "BAP": [
+      {
+        "BRU": "10",
+        "param": "1 100 fucking itch 100 1000",
+        "keybind": "1",
+        "cmd": "10"
+      },
+      {
+        "BRU": "10",
+        "param": "1 100 2  1000",
+        "keybind": "1",
+        "cmd": "10"
+      }
+    ],
+    "hahah4": [],
+    "hahah3": [],
+    "hahah2": [],
+    "xmddd": {
+      "hahah": "babab 100",
+      "props": {
+        "prev": {},
+        "parent_key": "xmddd"
+      },
+      "BAP": {
+        "parent": "hahah2",
+        "parsed": [
+          {
+            "BRU": "10",
+            "param": "1 100 fucking itch 100 1000",
+            "keybind": "1",
+            "cmd": "10"
+          },
+          {
+            "BRU": "10",
+            "param": "1 100 2  1000",
+            "keybind": "1",
+            "cmd": "10"
+          }
+        ]
+      },
+      "hahah4": {
+        "parent": "xmddd",
+        "parsed": {
+          "bruhak": "1000",
+          "hahah": "babab 100"
+        }
+      },
+      "hahah3": {
+        "parent": "xmddd",
+        "parsed": {
+          "bruhak": "1000"
+        }
+      },
+      "hahah2": {
+        "parent": "xmddd",
+        "parsed": {
+          "bruhak": "1000",
+          "hahah": "babab 100"
+        }
+      }
+    },
+    "volume": [
+      {
+        "prne": "100",
+        "param": "1 100 fucking itch 100 1000",
+        "keybind": "1",
+        "cmd": "10"
+      },
+      {
+        "prne": "100",
+        "param": "1 100 2  1000",
+        "keybind": "1",
+        "cmd": "10"
+      }
+    ]
+  }
+}
+
