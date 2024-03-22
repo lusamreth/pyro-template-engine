@@ -1,0 +1,33 @@
+# interesting::
+# https://oknozor.github.io/toml-bombadil/
+[dispatch]
+    azdic="ba"
+    [dispatch.togglegroup]
+    param="dwindle"
+    msg="dwindle mode !"
+    bind='ALTSHIFT,d'
+
+    [dispatch.changegroupactive.cycle]
+    controllers="./controllers.py"
+    param="$[b,f]"
+    msg="$[navigating,moving] @ing $[backward,forward]!"
+    bind='ALTSHIFT,$[k,n]'
+
+
+[application]
+    [application.startup]
+    alacritty="alacritty && oki"
+
+[utility]
+azdic="ba"
+controllers="./controllers.py %azdic"
+
+[utility.volume]
+param="%controllers"
+msg="bruh"
+bind="SHIFT"
+
+[utility.bo]
+# controllers="./controllers.py %azdic"
+apac="%controllers"
+

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyro-template-engine"
+version = "0.1.0"
+description = "A templating engine that is compatible with json,yaml and toml which enables the use of variables, high level function and array code generation from configuration files."
+authors = ["lusamreth <somrethoverkill@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages= [{include="src"},{include="analyzer",from="src"},{include="tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tomli = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+test-analyzer="tests.test_analyzer:runTestSample"
+test-bed="tests.test_bed:runTest"
+test-layer-gen=""
